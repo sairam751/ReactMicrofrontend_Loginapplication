@@ -1,9 +1,12 @@
 import React from 'react';
-import { mount } from 'marketing/MarketingApp';
-
-console.log(mount);
+import MarketingApp from './components/MarketingApp';
 
 export default () => {
-  //console.log('Hi')
-  return <h1>Hi there!</h1>;
+  return (
+    <div>
+      <h1>Hi there!</h1>
+      <hr />
+      <MarketingApp />
+    </div>
+  );
 };
